@@ -1,29 +1,26 @@
-# JupyterLite Demo
+<a href="img/logo_eesd.png">
+    <img src="img/logo_eesd.png" alt="EESD logo" title="EESD" align="right" height="60" />
+</a>
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
+# Spherical Harmonics
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+**That is the explanation that I followed to undersdant the basics:**
 
-## ✨ Try it in your browser ✨
+ - Laplace’s equation corresponds to finding the equilibrium solution (i.e. time independent solution) of the heat equation in 3D [Laplace's Equation](https://tutorial.math.lamar.edu/Classes/DE/LaplacesEqn.aspx)
 
-➡️ **https://jupyterlite.github.io/demo**
+ - Since the second derivative could be thought of as a difference of the average of two points with the one in between them. That describes how any shape deviates from the reference plane (either cartesian or spherical)
 
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
+**Derivation of the Spherical Harmonics equation:**
+ - [Derivation of the Laplacian from rectangular to spherical coordinates (https://planetmath.org/derivationofthelaplacianfromrectangulartosphericalcoordinates)
 
-## Requirements
+ - The solution to the Legendre Polynomial is presented in (Textbook: J.W. Brown, R.V. Churchill, Fourier Series and Boundary Value Problems). 
 
-JupyterLite is being tested against modern web browsers:
+ - Binominal expansion is used in the representation of the compact Legendre Polynomial form. It is derived here: [Proof of the binomial theorem by mathematical induction](http://amsi.org.au/ESA_Senior_Years/SeniorTopic1/1c/1c_2content_6.html)
+ 
+ - The normalisation of the associated Legendre polynomials is explored in [Normalisation of the associated Legendre polynomials](https://math.stackexchange.com/questions/1737301/associated-legendre-polynomials-orthogonality-proof-int-11-p-kmx-cdot)
+ 
+ - Differential solid angle in spherical coordinates: [Plane and Solid Angles](https://seos-project.eu/laser-rs/laser-rs-c03-s02-p02.html)
+[Solution of the Laplacian equation in Spherical coordinates](http://scipp.ucsc.edu/~haber/ph116C/SphericalHarmonics_12.pdf)
 
-- Firefox 90+
-- Chromium 89+
+ - Here is a good set of Spherical Harmonics notes: [Spherical Harmonics](https://www.physics.uoguelph.ca/chapter-4-spherical-harmonics)
 
-## Deploy your JupyterLite website on GitHub Pages
-
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
-
-## Further Information and Updates
-
-For more info, keep an eye on the JupyterLite documentation:
-
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
